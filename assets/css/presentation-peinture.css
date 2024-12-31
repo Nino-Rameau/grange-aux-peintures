@@ -1,0 +1,57 @@
+.menu-toile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  gap: var(--gap-m);
+  margin-top: 10px;
+}
+
+.btn-menu-toile {
+  font-family: var(--typo-titre);
+  font-size: var(--typo-size-l);
+  font-style: normal;
+  font-weight: 600;
+  color: var(--color-black);
+  background-color: var(--color-trois);
+  border-radius: var(--radius-100);
+  flex-wrap: nowrap;
+  padding: var(--padding-l);
+  max-width: max-content;
+  margin: auto;
+}
+
+.cl-font {
+  color: var(--color-principal);
+}
+
+@media screen and (min-width: 1024px) {
+  .menu-toile {
+    flex-direction: row;
+    margin-top: 20px;
+    position: sticky;
+    top: 90px;
+  }
+}
+
+.toute-peinture {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: auto;
+}
+
+.peinture {
+  min-width: 300px;
+  max-width: 26%;
+  margin: var(--margin-l);
+}
+
+.retour {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  color: var(--color-trois);
+}
