@@ -1,0 +1,37 @@
+p,
+.accueil-presentation-grange {
+  text-align: center;
+}
+
+p,
+.accueil-presentation-grange ul li {
+  color: var(--color-cinq);
+  font-size: var(--typo-size-m);
+}
+
+.accueil-presentation-grange {
+  margin-left: 20%;
+  text-align: left;
+}
+
+.photo-accueil {
+  display: flex;
+  margin: auto;
+  width: 60%;
+  max-width: 200px;
+}
+
+.ligne-photo-accueil {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.photo-ligne {
+  width: 30%;
+  min-width: 300px;
+  max-width: 500px;
+  margin-bottom: 30px;
+}

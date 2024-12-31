@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accueil</title>
+    <!--TODO maj titre description et auteur -->
+    <meta name="description" content="..." />
+    <meta name="author" content="..." />
+
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/variable.css" rel="stylesheet" />
+
+    <script src="assets/js/script.js"></script>
+
+    <link rel="icon" href="assets/img/logo-grange-aux-peintures.svg" />
+
+    <!-- typo google front -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Parisienne&family=Taviraj&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <img
+        src="assets/img/logo-grange-aux-peintures.svg"
+        alt="logo de la grange aux peintures"
+        class="header-logo"
+      />
+      <nav>
+        <a href="index.html" class="btn-header">Accueil</a>
+        <a href="peinture.html" class="btn-header btn-peintures">Peintures</a>
+        <div class="menu-header-peintures">
+          <a href="peinture-toile.html" class="btn-header-peintures">Toiles</a>
+          <a href="peinture-bois.html" class="btn-header-peintures">Bois</a>
+          <a href="peinture-ardoise.html" class="btn-header-peintures"
+            >Ardoises</a
+          >
+        </div>
+        <a href="carte.html" class="btn-header">Cartes et cartonnage</a>
+        <a href="autre.html" class="btn-header">Autres</a>
+        <a href="expositions.html" class="btn-header">Expositions</a>
+      </nav>
+      <a class="menu">
+        <svg
+          class="burger"
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-miterlimit="10"
+            stroke-width="1.5"
+            d="M4.5 12h15m-15 5.77h15M4.5 6.23h15"
+          />
+        </svg>
+        <svg
+          class="croix"
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M18.36 19.78L12 13.41l-6.36 6.37l-1.42-1.42L10.59 12L4.22 5.64l1.42-1.42L12 10.59l6.36-6.36l1.41 1.41L13.41 12l6.36 6.36z"
+          />
+        </svg>
+      </a>
+      <a href="contact.html" class="btn-header btn-header-contact active"
+        >Contact</a
+      >
+    </header>
+    <main>
+      <h1>Me contacter</h1>
+      <div class="contact">
+        <div class="colonne">
+          <p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              class="svg-contact"
+            >
+              <path
+                fill="currentColor"
+                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 14H4V8l8 5l8-5zm-8-7L4 6h16z"
+              />
+            </svg>
+            <a href="mailto:edwige.caudrelier@hotmail.fr"
+              >edwige.caudrelier@hotmail.fr</a
+            >
+          </p>
+
+          <p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              class="svg-contact"
+            >
+              <path
+                fill="currentColor"
+                d="M5 20v-9.15L2.2 13L1 11.4L12 3l4 3.05V4h3v4.35l4 3.05l-1.2 1.6l-2.8-2.15V20h-5v-6h-4v6zm5-9.975h4q0-.8-.6-1.313T12 8.2t-1.4.513t-.6 1.312"
+              />
+            </svg>
+            15 bis rue de Loynes 45190 Villorceau (entrée par le 15)
+          </p>
+
+          <p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              class="svg-contact"
+            >
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M15.6 14.522c-2.395 2.52-8.504-3.534-6.1-6.064c1.468-1.545-.19-3.31-1.108-4.609c-1.723-2.435-5.504.927-5.39 3.066c.363 6.746 7.66 14.74 14.726 14.042c2.21-.218 4.75-4.21 2.215-5.669c-1.268-.73-3.009-2.17-4.343-.767"
+              />
+            </svg>
+            06 40 40 88 37
+          </p>
+        </div>
+        <div class="colone">
+          <img src="assets/img/pinceau.svg" alt="pinceau" class="svg-pinceau" />
+        </div>
+        <div class="colonne">
+          <div class="carte-contact">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d670.0884888149027!2d1.595101550387029!3d47.79397404330315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e4942b1cfa1d95%3A0x4b927b522fe6842d!2s15%20bis%20Rue%20de%20Loynes%2C%2045190%20Villorceau!5e0!3m2!1sfr!2sfr!4v1735497170919!5m2!1sfr!2sfr"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright © 2024 grange-aux-peintures</p>
+      <p>Mentions légales | Conditions Générales</p>
+    </footer>
+  </body>
+</html>

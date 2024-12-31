@@ -1,0 +1,30 @@
+@import url("variable.css");
+
+.carte-peinture-x3 {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.carte-peinture {
+  background-color: var(--color-principal);
+  width: 350px;
+  height: 500px;
+  text-align: center;
+  border-radius: var(--radius-xl);
+}
+
+.carte-peinture img {
+  max-width: 80%;
+  max-height: 75%;
+}
+
+.peinture-ardoise img {
+  margin-top: 4%;
+  max-width: 100%;
+}

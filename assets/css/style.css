@@ -1,0 +1,279 @@
+@import url("variable.css");
+
+/* ---------------------------------
+            BASE ET RESET
+-----------------------------------*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: linear-gradient(
+    37deg,
+    rgb(255, 250, 237),
+    rgb(227, 213, 175)
+  );
+  background-attachment: fixed;
+}
+
+/* ---------------------------------
+                HEADER
+-----------------------------------*/
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-around;
+  background-color: var(--color-secondaire);
+  height: 80px;
+  position: sticky;
+  top: 0;
+}
+
+header nav {
+  display: none;
+  flex-direction: column;
+  width: max-content;
+  position: fixed;
+}
+
+.btn-header {
+  font-family: var(--typo-titre);
+  font-size: var(--typo-size-l);
+  font-style: normal;
+  font-weight: 600;
+  color: var(--color-black);
+  background-color: var(--color-principal);
+  padding: var(--padding-l);
+  border-top: solid 1px black;
+}
+
+.btn-header-contact {
+  background-color: var(--color-principal);
+  border-radius: var(--radius-m);
+  padding: var(--padding-l);
+  border: none;
+}
+
+.menu-header-peintures {
+  display: none;
+  background-color: var(--color-principal);
+}
+
+.btn-header-peintures {
+  color: var(--color-black);
+}
+
+.header-logo {
+  width: 70px;
+}
+
+.menu {
+  display: block;
+  cursor: pointer;
+  top: 80px;
+  right: 20rem;
+}
+
+header.menu-open nav {
+  display: flex;
+  top: 80px;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.active {
+  color: var(--color-trois);
+}
+
+@media screen and (min-width: 1024px) {
+  .menu {
+    display: none;
+  }
+  header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+  }
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    gap: var(--gap-m);
+  }
+
+  .btn-header {
+    border-radius: var(--radius-m);
+    border: none;
+    opacity: 75%;
+  }
+
+  .btn-header:hover {
+    opacity: 200%;
+  }
+
+  .header-logo {
+    width: 100px;
+  }
+}
+
+/* changement entre img burger et croix*/
+
+.burger {
+  display: block;
+}
+
+.croix {
+  display: none;
+}
+
+header.menu-open .burger {
+  display: none;
+}
+
+header.menu-open .croix {
+  display: block;
+}
+
+/* ---------------------------------
+                FOOTER
+-----------------------------------*/
+footer {
+  background-color: var(--color-secondaire);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* position: absolute;
+  bottom: 0;
+  width: 100%; */
+  min-height: 45px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+footer p {
+  margin: 0;
+  color: var(--color-trois);
+}
+
+@media screen and (min-width: 720px) {
+  footer {
+    background-color: var(--color-secondaire);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+/* ---------------------------------
+            TITRE ET TEXTE
+-----------------------------------*/
+
+h1,
+h2,
+h3 {
+  font-family: var(--typo-titre);
+}
+
+p,
+ul li {
+  font-family: var(--typo-texte);
+  font-size: var(--typo-size-s);
+}
+
+h1 {
+  font-size: var(--typo-size-xl);
+  color: var(--color-trois);
+  text-align: center;
+}
+
+h2 {
+  font-size: var(--typo-size-l);
+}
+
+h3 {
+  font-size: var(--typo-size-m);
+}
+
+/* ---------------------------------
+                BUTTON
+-----------------------------------*/
+
+/* ---------------------------------
+                IMAGES
+-----------------------------------*/
+
+/* ---------------------------------
+                AUTRE
+-----------------------------------*/
+
+.contact {
+  background-color: var(--color-principal);
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--radius-m);
+}
+
+.contact .colonne a,
+.contact .colonne p {
+  color: var(--color-cinq);
+  font-size: var(--typo-size-s);
+}
+
+.carte-contact iframe {
+  width: 90%;
+  height: 50%;
+  border: none;
+  display: flex;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.svg-pinceau {
+  margin-top: 100%;
+}
+
+@media screen and (min-width: 720px) {
+  .contact {
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    height: 500px;
+  }
+
+  .colonne {
+    max-width: 45%;
+    margin: auto;
+  }
+  /* TODO carte bug  */
+  .carte-contact iframe {
+    width: 50vh;
+    height: 30vh;
+  }
+
+  .contact .colonne a,
+  .contact .colonne p {
+    font-size: var(--typo-size-m);
+  }
+}
+
+.svg-contact {
+  color: var(--color-cinq);
+}

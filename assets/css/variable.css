@@ -1,0 +1,49 @@
+:root {
+  /* COULEUR */
+  --color-principal: #99d1ff;
+  --color-secondaire: #b399ff;
+  --color-trois: #e8318a;
+  --color-quatre: #e3d5af;
+  --color-cinq: #5e4595;
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+  /* TYPO */
+  --typo-titre: "Parisienne", serif;
+  --typo-texte: "Taviraj", serif;
+
+  /* TAILLE TYPO */
+  --typo-size-xs: 0, 8rem;
+  --typo-size-s: 1rem;
+  --typo-size-m: 1.3rem;
+  --typo-size-l: 2rem;
+  --typo-size-xl: 3rem;
+  --typo-size-xxl: 4rem;
+
+  /* MARGIN */
+  --margin-s: ;
+  --margin-m: ;
+  --margin-l: ;
+
+  /* PADDING */
+  --padding-s: ;
+  --padding-m: 2px 4px;
+  --padding-l: 4px 20px;
+
+  /* GAP */
+  --gap-s: ;
+  --gap-m: 2rem;
+  --gap-l: ;
+
+  /* BORDURE */
+
+  /* ARRONDIS */
+  --radius-s: 5px;
+  --radius-m: 10px;
+  --radius-l: 15px;
+  --radius-xl: 20px;
+  --radius-50: 50%;
+  --radius-100: 100%;
+
+  /* SHADOW */
+}
