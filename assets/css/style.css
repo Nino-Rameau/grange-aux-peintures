@@ -163,12 +163,14 @@ footer {
   min-height: 45px;
   margin: auto;
   margin-top: 50px;
+  padding-top: 10px;
 }
 
 footer p,
 footer a {
   margin: 0;
   color: var(--color-trois);
+  font-size: var(--typo-size-s);
 }
 
 footer a {
