@@ -20,6 +20,13 @@ body {
     rgb(227, 213, 175)
   );
   background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
 }
 
 /* ---------------------------------
@@ -37,6 +44,7 @@ header {
   height: 80px;
   position: sticky;
   top: 0;
+  width: 100%;
 }
 
 header nav {
@@ -157,9 +165,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  /* position: absolute;
-  bottom: 0;
-  width: 100%; */
+  width: 100%;
   min-height: 45px;
   margin: auto;
   margin-top: 50px;
@@ -295,6 +301,30 @@ h3 {
 
 .mention h2 {
   color: var(--color-cinq);
+}
+
+/* ---------------------------------
+            EXPOSITION
+-----------------------------------*/
+
+.exposition {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: var(--gap-m);
+  align-items: center;
+  margin-left: 5%;
+  margin-top: 20px;
+}
+
+.elt img {
+  width: 175px;
+}
+
+@media screen and (min-width: 720px) {
+  .exposition {
+    flex-direction: row;
+  }
 }
 
 /* ---------------------------------

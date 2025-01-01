@@ -50,12 +50,12 @@
     flex-wrap: wrap;
     width: 95%;
     margin: auto;
+    align-items: center;
   }
 
   .peinture {
     width: 27%;
-    max-width: 500px;
-    /* 600 */
+    max-width: 600px;
     height: 27%;
     margin: var(--margin-l);
   }
