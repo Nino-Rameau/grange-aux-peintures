@@ -112,8 +112,9 @@ header.menu-open nav {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    position: sticky;
+    position: fixed;
     top: 0;
+    margin-bottom: 80px;
   }
   header nav {
     display: flex;
@@ -135,6 +136,10 @@ header.menu-open nav {
 
   .header-logo {
     width: 100px;
+  }
+
+  h1 {
+    margin-top: 90px;
   }
 }
 
@@ -213,6 +218,13 @@ h1 {
   font-size: var(--typo-size-xl);
   color: var(--color-trois);
   text-align: center;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    margin-top: 90px;
+  }
 }
 
 h2 {
