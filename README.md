@@ -1,7 +1,6 @@
 # Création d'un site vitrine
 
-J'ai entierement réalisé ce site vitrine d'une artiste peintre.
-Ainsi que la charte graphique.
+J'ai entierement réalisé ce site vitrine d'une artiste peintre, ainsi que la charte graphique.
 
 ## Sommaire
 
