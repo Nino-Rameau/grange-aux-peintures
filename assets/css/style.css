@@ -235,6 +235,10 @@ h3 {
   font-size: var(--typo-size-m);
 }
 
+.accueil-presentation-grange ul li {
+  margin-left: -20%;
+}
+
 /* ---------------------------------
                 BUTTON
 -----------------------------------*/
@@ -262,6 +266,10 @@ h3 {
   font-size: var(--typo-size-s);
 }
 
+.contact .colonne {
+  height: 100px;
+}
+
 .carte-contact iframe {
   width: 90%;
   height: 50%;
@@ -269,10 +277,11 @@ h3 {
   display: flex;
   margin: auto;
   margin-bottom: 10px;
+  margin-top: 20%;
 }
 
 .svg-pinceau {
-  margin-top: 100%;
+  display: none;
 }
 
 @media screen and (min-width: 720px) {
@@ -296,6 +305,11 @@ h3 {
   .contact .colonne a,
   .contact .colonne p {
     font-size: var(--typo-size-m);
+  }
+
+  .svg-pinceau {
+    display: block;
+    margin-top: 100%;
   }
 }
 
