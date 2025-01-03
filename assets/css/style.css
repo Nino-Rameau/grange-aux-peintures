@@ -277,7 +277,7 @@ h3 {
   display: flex;
   margin: auto;
   margin-bottom: 10px;
-  margin-top: 20%;
+  margin-top: 120px;
 }
 
 .svg-pinceau {
@@ -300,6 +300,7 @@ h3 {
   .carte-contact iframe {
     width: 50vh;
     height: 30vh;
+    margin-top: 0px;
   }
 
   .contact .colonne a,
