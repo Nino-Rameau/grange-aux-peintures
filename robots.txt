@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://la-grange-aux-peintures.fr/sitemap.xml
