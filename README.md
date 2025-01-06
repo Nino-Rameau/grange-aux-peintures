@@ -18,6 +18,10 @@ J'ai entierement réalisé ce site vitrine d'une artiste peintre, ainsi que la c
 - CSS
 - JavaScript
 
+Pour le SEO du site :
+- robot.txt
+- sitemap.xml
+
 ## Licence
 
-Réalisation dans le cadre d'une demande en décembre 2024.
+Réalisation dans le cadre d'une demande en décembre 2024 et mis a jour régulierement.
