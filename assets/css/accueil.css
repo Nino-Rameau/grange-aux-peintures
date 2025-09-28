@@ -35,3 +35,51 @@ p,
   max-width: 500px;
   margin-bottom: 30px;
 }
+
+@media screen and (min-width: 1024px) {
+  .actu-margin {
+    margin-top: 80px;
+  }
+}
+
+.acutalite {
+  background-color: var(--color-trois);
+  height: 60px;  
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.acutalite p {
+  margin: 0;
+  font-size: var(--typo-size-l);
+  white-space: nowrap; 
+  display: inline-block;
+  animation: defilement 12s linear infinite;
+  position: relative;
+  z-index: -1;
+}
+
+/* Animation keyframes */
+@keyframes defilement {
+  0% {
+    transform: translateX(20%); 
+  }
+  100% {
+    transform: translateX(-60%); 
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* Animation keyframes */
+  @keyframes defilement {
+    0% {
+      transform: translateX(90%); 
+    }
+    100% {
+      transform: translateX(-60%); 
+    }
+  }
+}
